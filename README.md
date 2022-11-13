@@ -1,12 +1,11 @@
-# github-pages-boilerplate
+# Jordan Plows Blog(blog.plows.ai)
 
-Ready-to-fork setup of Babel, Gulp and Jekyll for GitHub Pages. [Showcase / Blog post](https://theblog.github.io/post/jekyll-github-pages-gulp-babel-directory-structure/) about this repo.
+This is my blog for plows.ai, looking forward to post different things I think about.
 
 ## Usage
 1. Fork the repo
 2. Run `npm install` in the root directory to install Gulp and Babel locally.
 3. Run `npx gulp jekyll` to build the site with Babel and serve it with Jekyll afterwards. Visit <a href="http://localhost:4000" target="_blank">http://localhost:4000</a> to see the blog.
-
 
 ## Development
 The `master` branch should only be used for deploying (see considerations below). For development, switch to the `dev` branch. After implementing your changes, test them by running `npx gulp jekyll` and visiting <a href="http://localhost:4000" target="_blank">http://localhost:4000</a>
